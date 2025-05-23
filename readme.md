@@ -12,6 +12,8 @@ MongoDB [Auto Init] Sharded Cluster with Docker Compose
 - If you need to set cluster with keyfile authentication, [check here](https://github.com/minhhungit/mongodb-cluster-docker-compose/tree/Feature/Auth/with-keyfile-auth)
 
 ---
+## DeepWIKI 
+https://deepwiki.com/minhhungit/mongodb-cluster-docker-compose
 
 ## 📖 Table of Contents
 - [❓ Mongo Components?](#-mongo-components-)
