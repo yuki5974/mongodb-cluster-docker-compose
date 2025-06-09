@@ -217,7 +217,7 @@ volumes:
   mongodb_cluster_router01_db:
     driver_opts:
       type: none
-      device: ${PWD}/mongodb_cluster_router01_db
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_router01_db
       o: bind
   mongodb_cluster_router01_config:
   
