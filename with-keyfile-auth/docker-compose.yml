@@ -220,42 +220,150 @@ volumes:
       device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_router01_db
       o: bind
   mongodb_cluster_router01_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_router01_config
+      o: bind
   
   mongodb_cluster_router02_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_router02_db
+      o: bind
   mongodb_cluster_router02_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_router02_config
+      o: bind
   
   mongodb_cluster_configsvr01_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_configsvr01_db
+      o: bind
   mongodb_cluster_configsvr01_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_configsvr01_config
+      o: bind
   
   mongodb_cluster_configsvr02_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_configsvr02_db
+      o: bind
   mongodb_cluster_configsvr02_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_configsvr02_config
+      o: bind
   
   mongodb_cluster_configsvr03_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_configsvr03_db
+      o: bind
   mongodb_cluster_configsvr03_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_configsvr03_config
+      o: bind
   
   mongodb_cluster_shard01_a_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard01_a_db
+      o: bind
   mongodb_cluster_shard01_a_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard01_a_config
+      o: bind
   
   mongodb_cluster_shard01_b_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard01_b_db
+      o: bind
   mongodb_cluster_shard01_b_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard01_b_config
+      o: bind
   
   mongodb_cluster_shard01_c_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard01_c_db
+      o: bind
   mongodb_cluster_shard01_c_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard01_c_config
+      o: bind
   
   mongodb_cluster_shard02_a_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard02_a_db
+      o: bind
   mongodb_cluster_shard02_a_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard02_a_config
+      o: bind
   
   mongodb_cluster_shard02_b_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard02_b_db
+      o: bind
   mongodb_cluster_shard02_b_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard02_b_config
+      o: bind
   
   mongodb_cluster_shard02_c_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard02_c_db
+      o: bind
   mongodb_cluster_shard02_c_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard02_c_config
+      o: bind
   
   mongodb_cluster_shard03_a_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard03_a_db
+      o: bind
   mongodb_cluster_shard03_a_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard03_a_config
+      o: bind
   
   mongodb_cluster_shard03_b_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard03_b_db
+      o: bind
   mongodb_cluster_shard03_b_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard03_b_config
+      o: bind
   
   mongodb_cluster_shard03_c_db:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard03_c_db
+      o: bind
   mongodb_cluster_shard03_c_config:
+    driver_opts:
+      type: none
+      device: /root/mongodb-cluster-docker-compose/with-keyfile-auth/mongodb_cluster_shard03_c_config
+      o: bind
