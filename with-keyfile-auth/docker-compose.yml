@@ -215,6 +215,10 @@ services:
 
 volumes:
   mongodb_cluster_router01_db:
+    driver_opts:
+      type: none
+      device: ${PWD}/mongodb_cluster_router01_db
+      o: bind
   mongodb_cluster_router01_config:
   
   mongodb_cluster_router02_db:
