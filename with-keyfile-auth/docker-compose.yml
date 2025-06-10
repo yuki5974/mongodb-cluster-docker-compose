@@ -225,10 +225,11 @@ services:
     ports:
       - 8081:8081
     environment:
-     - ME_CONFIG_BASICAUTH_USERNAME=your_admin
-     - ME_CONFIG_BASICAUTH_PASSWORD=your_password
-     - ME_CONFIG_MONGODB_SERVER=router01
-#     - ME_CONFIG_MONGODB_URL=mongodb://your_admin:your_password@router01:27117,router02:27118
+     - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
+     - ME_CONFIG_MONGODB_AUTH_USERNAME=your_admin
+     - ME_CONFIG_MONGODB_AUTH_PASSWORD=your_password
+#     - ME_CONFIG_MONGODB_SERVER=router01
+     - ME_CONFIG_MONGODB_URL=mongodb://router01:27117,router02:27118
 
 volumes:
   mongodb_cluster_router01_db:
