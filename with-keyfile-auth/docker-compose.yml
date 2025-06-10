@@ -225,8 +225,8 @@ services:
     ports:
       - 8081:8081
     environment:
-     - MONGO_INITDB_ROOT_USERNAME=your_admin
-     - MONGO_INITDB_ROOT_PASSWORD=your_password
+     - ME_CONFIG_BASICAUTH_USERNAME=your_admin
+     - ME_CONFIG_BASICAUTH_PASSWORD=your_password
      - ME_CONFIG_MONGODB_SERVER=router01
 #     - ME_CONFIG_MONGODB_URL=mongodb://your_admin:your_password@router01:27117,router02:27118
 
