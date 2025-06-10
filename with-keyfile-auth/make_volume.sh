@@ -1,4 +1,4 @@
-#!bin/bash
+#!bin/sh
 mkdir -p mongodb_cluster_router01_db
 mkdir -p mongodb_cluster_router01_config
 mkdir -p mongodb_cluster_router02_db
