@@ -11,9 +11,9 @@ services:
     ports:
       - 27117:27017
     restart: always
-    environment:
-     - MONGO_INITDB_ROOT_USERNAME=${MONGODB_ROOT_USERNAME}
-     - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_ROOT_PASSWORD}
+#    environment:
+#     - MONGO_INITDB_ROOT_USERNAME=${MONGODB_ROOT_USERNAME}
+#     - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_ROOT_PASSWORD}
     volumes:
       - ./scripts:/scripts
       - mongodb_cluster_router01_db:/data/db
@@ -27,9 +27,9 @@ services:
     ports:
       - 27118:27017
     restart: always
-    environment:
-     - MONGO_INITDB_ROOT_USERNAME=${MONGODB_ROOT_USERNAME}
-     - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_ROOT_PASSWORD}
+#    environment:
+#     - MONGO_INITDB_ROOT_USERNAME=${MONGODB_ROOT_USERNAME}
+#     - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_ROOT_PASSWORD}
     volumes:
       - ./scripts:/scripts
       - mongodb_cluster_router02_db:/data/db
@@ -225,9 +225,9 @@ services:
     ports:
       - 8081:8081
     environment:
-     - MONGO_INITDB_ROOT_USERNAME=${MONGODB_ROOT_USERNAME}
-     - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_ROOT_PASSWORD}
-     - ME_CONFIG_MONGODB_URL=mongodb://${MONGODB_ROOT_USERNAME}:${MONGODB_ROOT_PASSWORD}@router-01:27117,router-02:27118
+#     - MONGO_INITDB_ROOT_USERNAME=${MONGODB_ROOT_USERNAME}
+#     - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_ROOT_PASSWORD}
+     - ME_CONFIG_MONGODB_URL=mongodb://your_admin:your_password@router01:27117,router02:27118
 
 volumes:
   mongodb_cluster_router01_db:
